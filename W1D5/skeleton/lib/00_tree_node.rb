@@ -22,9 +22,9 @@ class PolyTreeNode
     child.parent = nil
   end
 
-  def inspect
-    value
-  end
+  # def inspect
+  #   value
+  # end
 
   def add_child(child)
     child.parent = self
